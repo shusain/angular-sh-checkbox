@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Angular-sh-checkbox : A checkbox directive that does&#39;t depend on the HTML checkbox but uses ng-model and styles the checkbox using font-awesome icons." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Angular-sh-checkbox</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/shusain/angular-sh-checkbox">View on GitHub</a>
+
+          <h1 id="project_title">Angular-sh-checkbox</h1>
+          <h2 id="project_tagline">A checkbox directive that does&#39;t depend on the HTML checkbox but uses ng-model and styles the checkbox using font-awesome icons.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/shusain/angular-sh-checkbox/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/shusain/angular-sh-checkbox/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="motivation" class="anchor" href="#motivation"><span class="octicon octicon-link"></span></a>Motivation</h3>
+
+<p>The HTML check box input type is just difficult to style across browsers.  I tried various CSS hacks before deciding it wasn't worth the time to deal with all the problems and testing and would be easier to just code up a control that has the behavior and display I expect.</p>
+
+<h3>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<p>To use the control (first install <a href="https://github.com/FortAwesome/Font-Awesome">font-awesome</a>):
+<code>bower install shusain/angular-sh-checkbox#~0.0.1 --save</code></p>
+
+<p>Include font-awesome css and the check box directive in your script block:</p>
+
+<p><code>&lt;script type="text/javascript" src="bower_components/angular-sh-checkbox/directive.js"&gt;&lt;/script&gt;</code></p>
+
+<p>Include the module dependency in your app:</p>
+
+<p><code>var myApp = angular.module("myApp", ["intellectual-tech.UIControls"]);</code></p>
+
+<p>Use the directive:</p>
+
+<pre><code>&lt;sh-checkbox
+  label="Test 1"
+  ng-model="test"&gt;
+&lt;/sh-checkbox&gt;
+
+&lt;sh-checkbox
+  label="Test 2"
+  ng-model="test"
+  checked-icon-class="fa fa-check-square-o"
+  un-checked-icon-class="fa fa-square-o"&gt;
+&lt;/sh-checkbox&gt;
+</code></pre>
+
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>2014, Shaun Husain (<a href="https://github.com/shusain" class="user-mention">@shusain</a>)</p>
+
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with the control? Contact us at <a href="http://www.intellectual-tech.com">http://www.intellectual-tech.com</a>, <a href="mailto:shaun@intellectual-tech.com">shaun@intellectual-tech.com</a>.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Angular-sh-checkbox maintained by <a href="https://github.com/shusain">shusain</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
