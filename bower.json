@@ -1,0 +1,26 @@
+{
+  "name": "angular-sh-checkbox",
+  "version": "0.0.0",
+  "authors": [
+    "Shaun Husain <shaun.husain@gmail.com>"
+  ],
+  "description": "A directive that is meant to replace the regular HTML checkbox that fulfills the same functionality with regard but doesn't require styling hacks to achieve various checkbox displays.",
+  "main": "directive.js",
+  "keywords": [
+    "angular",
+    "checkbox",
+    "directive"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.intellectual-tech.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  dependencies:{
+    "angular": "~1.2.16"
+  }
+}
