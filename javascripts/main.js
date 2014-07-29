@@ -1,1 +1,6 @@
-console.log('This would be the main JS file.');
+/**
+* mainApp Module
+*
+* Description
+*/
+angular.module('mainApp', ['intellectual-tech.UIControls']);

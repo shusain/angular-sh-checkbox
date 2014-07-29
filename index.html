@@ -7,11 +7,12 @@
     <meta name="description" content="Angular-sh-checkbox : A checkbox directive that does&#39;t depend on the HTML checkbox but uses ng-model and styles the checkbox using font-awesome icons." />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css"/>
 
     <title>Angular-sh-checkbox</title>
   </head>
 
-  <body>
+  <body ng-app="mainApp">
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -56,7 +57,14 @@
   label="Test 1"
   ng-model="test"&gt;
 &lt;/sh-checkbox&gt;
-
+</code>
+</pre>
+<sh-checkbox
+  label="Test 1"
+  ng-model="test">
+</sh-checkbox>
+<pre>
+<code>
 &lt;sh-checkbox
   label="Test 2"
   ng-model="test"
@@ -64,6 +72,12 @@
   un-checked-icon-class="fa fa-square-o"&gt;
 &lt;/sh-checkbox&gt;
 </code></pre>
+<sh-checkbox
+  label="Test 2"
+  ng-model="test"
+  checked-icon-class="fa fa-check-square-o"
+  un-checked-icon-class="fa fa-square-o">
+</sh-checkbox>
 
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
@@ -86,6 +100,8 @@
     </div>
 
     
-
+  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="bower_components/angular-sh-checkbox/directive.js"></script>
+  <script type="text/javascript" src="javascripts/main.js"></script>
   </body>
 </html>
