@@ -1,0 +1,26 @@
+{
+  "name": "angular-sh-checkbox",
+  "version": "0.0.1",
+  "homepage": "https://github.com/shusain/angular-sh-checkbox",
+  "authors": [
+    "Shaun Husain <shaun.husain@gmail.com>"
+  ],
+  "description": "Basic checkbox replacement using fontawesome icons.",
+  "keywords": [
+    "angular",
+    "checkbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.16",
+    "font-awesome": "~4.1.0",
+    "angular-sh-checkbox": "shusain/angular-sh-checkbox#~0.0.1"
+  }
+}
